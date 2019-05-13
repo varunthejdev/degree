@@ -5,3 +5,6 @@ pipeline {
       steps {
         sh 'docker build -t varunbhupathi/degree53:latest .'
       }
+     }
+    }
+   }
