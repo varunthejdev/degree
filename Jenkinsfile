@@ -1,10 +1,15 @@
 pipeline {
-  agent any
-  stages {
-    stage('Docker Build') {
-      steps {
-        sh 'docker build -t varunbhupathi/degree53:latest .'
-      }
-     }
+    agent any
+    stages {
+        stage('Build Docker Image') {
+            when {
+                branch 'master'
+            }
+            steps {
+                script {
+                    app = docker.build("varunbhupathi/degree53 .")
+                }
+            }
+        }
     }
-   }
+}
