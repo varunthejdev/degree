@@ -1,0 +1,5 @@
+https://blogs.msdn.microsoft.com/tomholl/2017/06/11/get-alerts-as-you-approach-your-azure-resource-quotas/
+
+https://blogs.msdn.microsoft.com/wriju/2018/02/20/know-your-azure-subscription-quota-and-usage/
+
+https://www.powershellbros.com/get-azure-subscription-quota-limits-using-powershell/
